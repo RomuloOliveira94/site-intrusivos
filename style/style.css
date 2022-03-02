@@ -95,7 +95,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
     color:white;
     height: 20%;
     background-color:black;
@@ -112,4 +112,5 @@ footer{
 .redes-sociais>a>img{
     width: max(50px, 5vw);
     padding: 10px;
+    margin-left: -15px;
 }
