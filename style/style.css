@@ -1,0 +1,115 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-padrao: 'Sriracha', cursive;
+    --font-titulo: 'Franklin Gothic Heavy', sans-serif;
+}
+/*cabeçalho*/
+header{
+    background-color: black;
+    text-align: center;
+    height: 150px;
+    padding: 30px; 
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.335);   
+}
+
+audio{
+   margin-top: 20px; 
+   height: 30px;
+   width: max(350px, 40vw);
+   box-shadow: inset 7px 7px 3px rgba(0, 0, 0, 0.335);
+}
+
+#titulo{    
+    font-family: var(--font-titulo);
+    color: white;
+    font-size: max(40px, 4vw);
+    padding-bottom: 10px;
+}
+
+#sub-titulo{
+    color: white;
+    font-size: max(18px,1.5vw);
+    font-family: var(--font-titulo);
+}
+/*letra*/
+section{
+    padding-top: 12vw;
+    padding-bottom: 12vw;
+    padding-left: 3vw;
+    margin-top: -20px;
+}
+/*segunda estrofe da primeira parte*/
+#second-text{
+    padding-top: 5vw;
+}
+/*texto geral da musica*/
+.texto-musica{
+   font-family: var(--font-padrao);
+   font-size: max(20px, 2.5vw);
+   line-height: 2.5em;
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.300);
+}
+/*imagens*/
+.estrofe-imagem1{
+    background-image: url('../img/intrusivos2.jpg');
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed; 
+    box-shadow: inset 7px 7px 14px 0px rgba(0, 0, 0, 0.603);
+}
+
+.estrofe-imagem2{
+    background-image: url('../img/intrusivos1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 7px 7px 14px 0px gray;
+}
+/*textos do refrão e imagens*/
+.textoimg{
+    display: inline-block;
+    background-color:rgba(61, 60, 60, 0.527);
+    color: white;
+    font-family: var(--font-padrao);
+    font-size: max(20px, 2vw);
+    line-height: 3em;
+    border-radius: 5px;
+    padding: 10px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.219);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.424);
+}
+/*assinatura*/
+#ass{
+    font-size: 1em;
+    padding-top: 20px;
+    padding-left: 5vw;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.219);
+}
+/*parte do rodape*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:white;
+    margin-top: 100px;
+    height: 150px;
+    background-color:black;
+    padding-left: 5vw;
+}
+
+.texto-rodape{
+    padding: 10px;
+    font-size: 2.5em;
+    font-family: var(--font-titulo)
+}
+
+.redes-sociais>a>img{
+    width: max(50px, 5vw);
+    padding: 10px;
+}
