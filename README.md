@@ -1,5 +1,9 @@
-# site-intrusivos
- site in paralax with music
+# web-site-intrusivos
+website build using paralax with music.
+
+Tecnologies
+HTML5
+CSS3
  
  https://romulooliveira94.github.io/site-intrusivos/
  
